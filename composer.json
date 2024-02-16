@@ -1,0 +1,18 @@
+{
+    "name": "pedronicpa/admintaicss",
+    "description": "This admin tai css template",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pedronicpa",
+            "email": "pedronicpa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pedronicpa\\Admintaicss\\": "src/"
+        }
+    }
+}
