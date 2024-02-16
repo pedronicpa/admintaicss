@@ -6,11 +6,9 @@ use Illuminate\Support\ServiceProvider;
 
 class AdmintaicssServiceProvider extends ServiceProvider
 {
-    
- public function boot()
+
+    public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'admintaicss');        
+        $this->loadViewsFrom(__DIR__ . '/Views', 'admintaicss');
     }
-  
-    
 }
