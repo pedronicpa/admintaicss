@@ -10,12 +10,13 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {
-       
-    },
+   
     "autoload": {
         "psr-4": {
             "Pedronicpa\\Admintaicss\\": "src/"
         }
-    }
+    },
+    "require": {
+    "pedronicpa/admintaicss": "^1.0"
+}
 }
