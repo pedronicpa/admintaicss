@@ -8,11 +8,27 @@
             "email": "pedronicpa@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
+     "autoload": {
         "psr-4": {
             "Pedronicpa\\Admintaicss\\": "src/"
         }
-    }
+    },
+    "extra": {
+      "laravel": {
+          "providers": [
+              "Pedronicpa\\Admintaicss\\AdmintaicssServiceProvider"
+          ]
+      }
+  },
+   "require": {
+    "laravel/framework": ">=7.0",
+    "php": ">=7.2.5",
+    "pedronicpa/admintaicss": "1.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=9.1",
+    "orchestra/testbench": ">=4.0",
+    "scrutinizer/ocular": "^1.9"
+  },
+  "minimum-stability": "dev"
 }
